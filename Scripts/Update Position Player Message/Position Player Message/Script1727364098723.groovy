@@ -86,7 +86,7 @@ log.logInfo("Global Variable value : " + GlobalVariable.target)
 // Change static xpath to global variable based on parameter "target"
 TestObject target = findTestObject('Object Repository/Position Player Message/entity_area')
 targetPlayer = WebUI.modifyObjectProperty(target, 'xpath', 'equals', "//div[@class='px-3 py-2 space-y-2'][contains(.,'nickname: " + '"' + GlobalVariable.target + '"' + "')]" , true)
-log.logInfo("xpath value : " + targetPlayer)
+//log.logInfo("xpath value : " + targetPlayer)
 String entityData = WebUI.getText(targetPlayer)
 WebUI.scrollToElement(targetPlayer, 5)
 WebUI.takeFullPageScreenshot()

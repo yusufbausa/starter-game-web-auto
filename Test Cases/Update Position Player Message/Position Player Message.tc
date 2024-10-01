@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Position Player Message</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc84c4ae-34a5-4cb3-af05-9b91abca93b7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0e401e95-d684-4097-b335-b1295707f942</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>caa6484f-d2c6-4ac7-92e7-d21741528b8a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'W'</defaultValue>
+      <description></description>
+      <id>0e401e95-d684-4097-b335-b1295707f942</id>
+      <masked>false</masked>
+      <name>direction</name>
+   </variable>
+   <variable>
+      <defaultValue>'default-9'</defaultValue>
+      <description></description>
+      <id>caa6484f-d2c6-4ac7-92e7-d21741528b8a</id>
+      <masked>false</masked>
+      <name>target</name>
+   </variable>
+</TestCaseEntity>

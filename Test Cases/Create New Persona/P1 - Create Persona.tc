@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P1 - Create Persona</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0dae159-d456-48e2-a89b-5012159924f8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>23e07495-ee8b-4d89-9da9-813e00ce90e3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>23e07495-ee8b-4d89-9da9-813e00ce90e3</id>
+      <masked>false</masked>
+      <name>personaTag</name>
+   </variable>
+</TestCaseEntity>

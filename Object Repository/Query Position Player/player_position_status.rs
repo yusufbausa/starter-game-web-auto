@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>player_position_status</name>
+   <tag></tag>
+   <elementGuidId>7f386331-2bd6-4950-a465-905752067e18</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[.='X: 0Y: 0']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/main/div/div/div/div/div/div[2]/div[2]/div[2]/div[10]/div[2]/details[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#root > main > div > div > div:nth-child(1) > div.bg-muted.h-full.px-4.pt-4.pb-16.overflow-y-auto > div > div.space-y-4 > div:nth-child(2) > div.grid.sm\:grid-cols-2.lg\:grid-cols-3.xl\:grid-cols-4.gap-4.\33 xl\:flex.\33 xl\:flex-wrap > div:nth-child(10) > div.px-3.py-2.space-y-2 > details:nth-child(3) > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0e23bc9c-7b69-472d-a433-edae26d51237</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>X: 0Y: 1</value>
+      <webElementGuid>59d254c0-b9bd-462a-b688-1d42e28f4e37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[.='X: 0Y: 0']</value>
+      <webElementGuid>89a9c8a2-0be9-4755-a5fd-c185add6dffb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/main/div/div/div/div/div/div[2]/div[2]/div[2]/div[10]/div[2]/details[3]/div</value>
+      <webElementGuid>8a9d3a1c-b69d-44eb-a8ba-b4df9334fe9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='{} 2 keys'])[10]/following::div[1]</value>
+      <webElementGuid>bfac83f9-75c3-435c-9b27-a3bd07c1a90a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div[2]/details[3]/div</value>
+      <webElementGuid>c7ca2d79-d06c-4b44-b429-fc2b7eccb2f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'X: 0Y: 1' or . = 'X: 0Y: 1')]</value>
+      <webElementGuid>1adc8c71-51d7-4cd7-813a-481856636831</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

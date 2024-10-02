@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>entity_area</name>
+   <tag></tag>
+   <elementGuidId>2034451b-b18b-4eb6-9138-00d03ee2b60c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='px-3 py-2 space-y-2'][contains(.,'nickname: '${target}'')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/main/div/div/div/div/div/div[2]/div[2]/div[2]/div[11]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a6a3911d-1f51-4464-abf3-9cbe198b522f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-3 py-2 space-y-2</value>
+      <webElementGuid>44ec90b9-8fef-4618-a101-c708b1980b4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Health{} 1 keysHP: 111Player{} 1 keysnickname: &quot;test_yusuf&quot;Position{} 2 keysX: 0Y: 0</value>
+      <webElementGuid>096a6bf2-3e7c-4d21-a5ba-c0009a75cb93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='px-3 py-2 space-y-2'][contains(.,'nickname: '${target}'')]</value>
+      <webElementGuid>775c3f5f-b5a8-4cd3-983e-fda61861e078</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/main/div/div/div/div/div/div[2]/div[2]/div[2]/div[11]/div[2]</value>
+      <webElementGuid>8be6c83e-e8d2-485d-98e4-0ca3a55fb88e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='{} 2 keys'])[10]/following::div[4]</value>
+      <webElementGuid>9abf3ccc-239e-4250-82e8-d66e4dbc6893</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/div[2]</value>
+      <webElementGuid>233bc795-871b-4fe8-af0c-6319ef02c6af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Health{} 1 keysHP: 111Player{} 1 keysnickname: &quot;test_yusuf&quot;Position{} 2 keysX: 0Y: 0' or . = 'Health{} 1 keysHP: 111Player{} 1 keysnickname: &quot;test_yusuf&quot;Position{} 2 keysX: 0Y: 0')]</value>
+      <webElementGuid>a58d6dfc-7bcc-47f8-874c-f009c6f5e640</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - N5 - Create Persona - personaTag - Already Registered</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f34b674-9846-4fc8-92a2-a8e823d09bf5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4eaf95dd-4b87-4475-9cc3-665d19e6615d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>4eaf95dd-4b87-4475-9cc3-665d19e6615d</id>
+      <masked>false</masked>
+      <name>personaTag</name>
+   </variable>
+</TestCaseEntity>

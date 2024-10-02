@@ -14,4 +14,14 @@
       <initValue>'test_yusuf'</initValue>
       <name>personaTag</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'yusufbausa@MSI: /mnt/c/Users/yusuf/starter-game'</initValue>
+      <name>windowsTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test_player'</initValue>
+      <name>nickname</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

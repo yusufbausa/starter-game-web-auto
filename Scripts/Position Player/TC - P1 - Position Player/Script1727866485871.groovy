@@ -89,7 +89,6 @@ targetPlayer = WebUI.modifyObjectProperty(target, 'xpath', 'equals', "//div[@cla
 
 String entityData = WebUI.getText(targetPlayer)
 WebUI.scrollToElement(targetPlayer, 5)
-WebUI.takeFullPageScreenshot()
 WebUI.takeElementScreenshot(targetPlayer)
 
 // Write the data into the first cell

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - N1 - N2 - Create Persona - personaTag - Symbols</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e4ac737f-6356-417c-89c9-10d829e3455b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>df428200-a454-4b1b-b743-b9c64624860d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>df428200-a454-4b1b-b743-b9c64624860d</id>
+      <masked>false</masked>
+      <name>personaTag</name>
+   </variable>
+</TestCaseEntity>

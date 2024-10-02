@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - P1 - Create Player</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3f87b6de-9a79-4542-b9ca-c960dd730d96</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>87a9ed11-a1ed-411c-ad7a-0d3e68aaa635</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'test-player'</defaultValue>
+      <description></description>
+      <id>87a9ed11-a1ed-411c-ad7a-0d3e68aaa635</id>
+      <masked>false</masked>
+      <name>nickname</name>
+   </variable>
+</TestCaseEntity>

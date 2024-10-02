@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>P1 - Create Persona</name>
+   <name>N1 - Attack Player</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a0dae159-d456-48e2-a89b-5012159924f8</testCaseGuid>
+   <testCaseGuid>475bbbb2-fa2c-4696-852c-b9a1e7ca6c39</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>23e07495-ee8b-4d89-9da9-813e00ce90e3</variableId>
+      <variableId>05c53596-a382-4338-84ea-b50373dc481d</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'test'</defaultValue>
+      <defaultValue>'default-9'</defaultValue>
       <description></description>
-      <id>23e07495-ee8b-4d89-9da9-813e00ce90e3</id>
+      <id>05c53596-a382-4338-84ea-b50373dc481d</id>
       <masked>false</masked>
-      <name>personaTag</name>
+      <name>target</name>
    </variable>
 </TestCaseEntity>

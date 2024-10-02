@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Create Persona</name>
+   <name>Attack Player</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>d689e917-a4ea-4c7f-8634-052b333fe466</dataFileGUID>
-   <dataSourceUrl>C:\Argus Data Test\Starter Game\Create Persona.xlsx</dataSourceUrl>
+   <dataFileGUID>930d3a69-b53b-44fe-a036-1abe3b9c362b</dataFileGUID>
+   <dataSourceUrl>C:\Argus Data Test\Starter Game\Attack Player.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Create Persona</sheetName>
+   <sheetName>Attack Player</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

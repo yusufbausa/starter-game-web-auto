@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P1 - Attack Player</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d07d61cc-c193-4d30-9ca3-fa24badc0968</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>60a63989-1d88-486f-a60c-b43763e96a43</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'default-9'</defaultValue>
+      <description></description>
+      <id>60a63989-1d88-486f-a60c-b43763e96a43</id>
+      <masked>false</masked>
+      <name>target</name>
+   </variable>
+</TestCaseEntity>

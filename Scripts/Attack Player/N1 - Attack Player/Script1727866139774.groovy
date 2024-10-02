@@ -16,10 +16,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.Alert as Alert
-import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
+
+import com.kms.katalon.core.logging.KeywordLogger
 import com.kms.katalon.core.util.KeywordUtil
-//for excel csv save
+
 import java.io.FileInputStream as FileInputStream
 import java.io.FileNotFoundException as FileNotFoundException
 import java.io.FileOutputStream as FileOutputStream
@@ -34,25 +34,31 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook as XSSFWorkbook
 import org.eclipse.osgi.framework.util.FilePath as FilePath
 import java.lang.String as String
 
-//WebUI.openBrowser('')
-//WebUI.maximizeWindow()
-//WebUI.navigateToUrl('http://localhost:3000/')
-//WebUI.delay(3)
-WebUI.click(findTestObject('Object Repository/Position Player Message/btn_msg_position_player'))
-WebUI.delay(1)
-WebUI.click(findTestObject('Object Repository/Position Player Message/dropdown_persona'))
-WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/Position Player Message/dropdown_select_persona'))
-WebUI.setText(findTestObject('Object Repository/Position Player Message/field_direction'), direction)
-WebUI.setText(findTestObject('Object Repository/Position Player Message/field_target'), target)
-WebUI.click(findTestObject('Object Repository/Position Player Message/btn_send'))
-WebUI.delay(1)
 
-String positionResponse = WebUI.getText(findTestObject('Object Repository/Position Player Message/response_area'))
+//WebUI.openBrowser('')
+//WebUI.navigateToUrl('http://localhost:3000/')
+//WebUI.maximizeWindow()
+//WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Attack Player/btn_menu_attack_player'))
+WebUI.click(findTestObject('Object Repository/Attack Player/dropdown_select_persona'))
+WebUI.click(findTestObject('Object Repository/Attack Player/option_persona'))
+WebUI.setText(findTestObject('Object Repository/Attack Player/field_target'), target)
+WebUI.click(findTestObject('Object Repository/Attack Player/btn_send'))
+
+WebUI.click(findTestObject('Object Repository/Attack Player/response_area'))
+def attackResponse = WebUI.getText(findTestObject('Object Repository/Attack Player/response_area'))
 
 KeywordLogger log = new KeywordLogger()
 
-filePath = 'C:\\Argus Data Test\\Starter Game\\Position Player Msg.xlsx'
+if (attackResponse.contains('"damage": 10')) {
+	log.logInfo("Attack Response = " + attackResponse)
+	KeywordUtil.markPassed("Test Case Passed")
+} else {
+	KeywordUtil.markFailed("Test Case Failed")
+}
+
+filePath = 'C:\\Argus Data Test\\Starter Game\\Attack Player.xlsx'
 
 FileInputStream fileInputStream
 XSSFWorkbook workbook
@@ -60,14 +66,14 @@ XSSFSheet sheet
 
 // Open existing Excel file or create a new one
 try {
-    fileInputStream = new FileInputStream(filePath)
-    workbook = new XSSFWorkbook(fileInputStream)
-    sheet = workbook.getSheet('Position Response')
+	fileInputStream = new FileInputStream(filePath)
+	workbook = new XSSFWorkbook(fileInputStream)
+	sheet = workbook.getSheet('Attack Response')
 }
 catch (FileNotFoundException e) {
-    workbook = new XSSFWorkbook()
-    sheet = workbook.createSheet('Position Response')
-} 
+	workbook = new XSSFWorkbook()
+	sheet = workbook.createSheet('Attack Response')
+}
 
 // Get the last row number and increment it for the new data
 int lastRow = sheet.getLastRowNum() + 1
@@ -75,31 +81,13 @@ int lastRow = sheet.getLastRowNum() + 1
 // Create a new row
 Row row = sheet.createRow(lastRow)
 
-// Get target value from excel file
-TestData excelData = findTestData('Data Files/Position Player Message/Position Player Msg')
-String valueFromExcel = excelData.getValue(2,lastRow)
-
-// Change global variable target value to the data get from excel file
-GlobalVariable.target = valueFromExcel
-log.logInfo("Global Variable value : " + GlobalVariable.target)
-
-// Change static xpath to global variable based on parameter "target"
-TestObject target = findTestObject('Object Repository/Position Player Message/entity_area')
-targetPlayer = WebUI.modifyObjectProperty(target, 'xpath', 'equals', "//div[@class='px-3 py-2 space-y-2'][contains(.,'nickname: " + '"' + GlobalVariable.target + '"' + "')]" , true)
-//log.logInfo("xpath value : " + targetPlayer)
-String entityData = WebUI.getText(targetPlayer)
-WebUI.scrollToElement(targetPlayer, 5)
-WebUI.takeFullPageScreenshot()
-
 // Write the data into the first cell
 Cell cell = row.createCell(0)
-cell.setCellValue(positionResponse)
-Cell cell2 = row.createCell(1)
-cell2.setCellValue(entityData)
+cell.setCellValue(attackResponse)
 
 // Close the input stream
 if (fileInputStream != null) {
-    fileInputStream.close()
+	fileInputStream.close()
 }
 
 // Write the updated workbook to the file
@@ -110,4 +98,5 @@ workbook.write(fileOutputStream)
 fileOutputStream.close()
 
 WebUI.refresh()
+//WebUI.closeBrowser()
 

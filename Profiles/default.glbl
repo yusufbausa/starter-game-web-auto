@@ -9,4 +9,9 @@
       <initValue>'default-9'</initValue>
       <name>target</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test_yusuf'</initValue>
+      <name>personaTag</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

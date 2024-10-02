@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Position Player Message</name>
+   <name>TC - P1 - Position Player</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>bc84c4ae-34a5-4cb3-af05-9b91abca93b7</testCaseGuid>

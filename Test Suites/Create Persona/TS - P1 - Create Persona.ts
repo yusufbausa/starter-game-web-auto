@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Position Player</name>
+   <name>TS - P1 - Create Persona</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,33 +10,34 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>1be37bd1-c1f7-4e58-99f4-d6ab86b3f8ad</testSuiteGuid>
+   <testSuiteGuid>219e8f14-1b7a-4fac-81ad-ebb73b3fb9b8</testSuiteGuid>
    <testCaseLink>
-      <guid>cfc71f26-0145-4be9-a063-4c851bc8a4f8</guid>
+      <guid>6df847dd-d251-4682-8bb5-cceb885b652f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Update Position Player Message/Position Player Message</testCaseId>
+      <testCaseId>Test Cases/Open Browsers/Open Browser</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ae2379c1-fe52-4616-a5a2-112c1c1853cc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create Persona/TC - P1 - Create Persona</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>ab09a011-0405-4d5a-836a-53fabbd013eb</id>
+         <id>e11a4eb4-4d5e-4133-9db7-9b38ac71ecf1</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Position Player Message/Position Player Msg</testDataId>
+         <testDataId>Data Files/Create Persona/Create Persona</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>ab09a011-0405-4d5a-836a-53fabbd013eb</testDataLinkId>
+         <testDataLinkId>e11a4eb4-4d5e-4133-9db7-9b38ac71ecf1</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Direction</value>
-         <variableId>0e401e95-d684-4097-b335-b1295707f942</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>ab09a011-0405-4d5a-836a-53fabbd013eb</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Target</value>
-         <variableId>caa6484f-d2c6-4ac7-92e7-d21741528b8a</variableId>
+         <value>personaTag</value>
+         <variableId>23e07495-ee8b-4d89-9da9-813e00ce90e3</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

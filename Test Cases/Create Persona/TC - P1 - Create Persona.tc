@@ -16,6 +16,6 @@
       <description></description>
       <id>23e07495-ee8b-4d89-9da9-813e00ce90e3</id>
       <masked>false</masked>
-      <name>personaTag</name>
+      <name>newPersonaTag</name>
    </variable>
 </TestCaseEntity>

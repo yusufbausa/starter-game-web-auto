@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - P3 - Create Player - contains symbol</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>066cccae-97be-49cf-a40f-dcb3252adcde</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7f6b0d0f-a474-4549-9f6f-25e2442c932e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'test-player'</defaultValue>
+      <description></description>
+      <id>7f6b0d0f-a474-4549-9f6f-25e2442c932e</id>
+      <masked>false</masked>
+      <name>nickname</name>
+   </variable>
+</TestCaseEntity>

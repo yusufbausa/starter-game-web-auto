@@ -34,19 +34,19 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook as XSSFWorkbook
 import org.eclipse.osgi.framework.util.FilePath as FilePath
 import java.lang.String as String
 
-//WebUI.openBrowser('')
-//WebUI.maximizeWindow()
-//WebUI.navigateToUrl('http://localhost:3000/')
+WebUI.openBrowser('')
+WebUI.maximizeWindow()
+WebUI.navigateToUrl('http://localhost:3000/')
 //WebUI.delay(3)
 WebUI.click(findTestObject('Object Repository/Position Player Message/btn_msg_position_player'))
-WebUI.delay(1)
+//WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Position Player Message/dropdown_persona'))
-WebUI.delay(2)
+//WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Position Player Message/dropdown_select_persona'))
 WebUI.setText(findTestObject('Object Repository/Position Player Message/field_direction'), direction)
 WebUI.setText(findTestObject('Object Repository/Position Player Message/field_target'), target)
 WebUI.click(findTestObject('Object Repository/Position Player Message/btn_send'))
-WebUI.delay(1)
+WebUI.delay(2)
 
 String positionResponse = WebUI.getText(findTestObject('Object Repository/Position Player Message/response_area'))
 
@@ -77,7 +77,7 @@ Row row = sheet.createRow(lastRow)
 
 // Get target value from excel file
 TestData excelData = findTestData('Data Files/Position Player Message/Position Player Msg')
-String valueFromExcel = excelData.getValue(2,lastRow)
+String valueFromExcel = excelData.getValue(3,lastRow)
 
 // Change global variable target value to the data get from excel file
 GlobalVariable.target = valueFromExcel
@@ -109,5 +109,8 @@ workbook.write(fileOutputStream)
 // Close the output stream
 fileOutputStream.close()
 
-WebUI.refresh()
+WebUI.delay(2)
+WebUI.closeBrowser()
+
+WebUI.callTestCase(findTestCase("Cardinal Purge/Terminal Cardinal Purge"), [:], FailureHandling.OPTIONAL)
 

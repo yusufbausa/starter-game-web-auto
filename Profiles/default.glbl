@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'test_yusuf'</initValue>
+      <initValue>'_test_persona'</initValue>
       <name>personaTag</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -23,5 +23,10 @@
       <description></description>
       <initValue>'test_player'</initValue>
       <name>nickname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test_yusuf'</initValue>
+      <name>persona</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

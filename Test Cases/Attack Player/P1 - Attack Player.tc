@@ -16,6 +16,6 @@
       <description></description>
       <id>60a63989-1d88-486f-a60c-b43763e96a43</id>
       <masked>false</masked>
-      <name>target</name>
+      <name>targetPlayer</name>
    </variable>
 </TestCaseEntity>

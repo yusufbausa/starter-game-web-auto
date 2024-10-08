@@ -42,7 +42,7 @@ WebUI.navigateToUrl('http://localhost:3000/')
 WebUI.maximizeWindow()
 
 //Creating New Persona
-WebUI.setText(findTestObject('Object Repository/Create Persona/field_personaTag'), personaTag)
+WebUI.setText(findTestObject('Object Repository/Create Persona/field_personaTag'), newPersonaTag)
 WebUI.click(findTestObject('Object Repository/Create Persona/btn_create'))
 
 //Validation for New Persona
@@ -51,15 +51,15 @@ KeywordLogger log = new KeywordLogger()
 def actualText = 'Successfully created persona '
 def popupMessage = WebUI.getText(findTestObject('Object Repository/Create Persona/popup_message'))
 
-if (popupMessage.contains(actualText + personaTag)) {
+if (popupMessage.contains(actualText + newPersonaTag)) {
     log.logInfo('Web Message = ' + popupMessage)
-    log.logInfo(('Expected Message = ' + actualText) + personaTag)
+    log.logInfo(('Expected Message = ' + actualText) + newPersonaTag)
     KeywordUtil.markPassed('Test Case Passed')
 } else {
     def popupErrorMessage = WebUI.getText(findTestObject('Object Repository/Create Persona/popup_error_message'))
     log.logInfo('Web Message = ' + popupMessage)
     log.logInfo('Web Error Message = ' + popupErrorMessage)
-    log.logInfo(('Expected Message = ' + actualText) + personaTag)
+    log.logInfo(('Expected Message = ' + actualText) + newPersonaTag)
     KeywordUtil.markFailed('Test Failed ' + popupErrorMessage)
 }
 
@@ -69,7 +69,6 @@ FileInputStream fileInputStream
 XSSFWorkbook workbook
 XSSFSheet sheet
 
-// Open existing Excel file or create a new one
 try {
     fileInputStream = new FileInputStream(filePath)
     workbook = new XSSFWorkbook(fileInputStream)
@@ -80,14 +79,10 @@ catch (FileNotFoundException e) {
     sheet = workbook.createSheet('Create Persona Response')
 } 
 
-// Get the last row number and increment it for the new data
 int lastRow = sheet.getLastRowNum() + 1
-
-// Create a new row
 Row row = sheet.createRow(lastRow)
 
-// Get target value from excel file
-TestData excelData = findTestData('Data Files/Create Persona/P1 - Create Persona')
+TestData excelData = findTestData('Data Files/Create Persona/Create Persona')
 String valueFromExcel = excelData.getValue(2, 1)
 
 // Change global variable target value to the data get from excel file
@@ -96,33 +91,24 @@ log.logInfo('Global Variable personaTag value : ' + GlobalVariable.personaTag)
 
 // Change static xpath to global variable based on parameter "target"
 TestObject persona = findTestObject('Object Repository/Create Persona/persona_area')
-personaTag = WebUI.modifyObjectProperty(persona, 'xpath', 'equals', ((('//div[@class=\'px-3 py-2 space-y-2\'][contains(.,\'PersonaTag: ' + 
-    '"') + GlobalVariable.personaTag) + '"') + '\')]', true)
+personaTag = WebUI.modifyObjectProperty(persona, 'xpath', 'equals', ((('//div[@class=\'px-3 py-2 space-y-2\'][contains(.,\'PersonaTag: ' + '"') + GlobalVariable.personaTag) + '"') + '\')]', true)
 
 String personaData = WebUI.getText(personaTag)
 WebUI.scrollToElement(personaTag, 5)
 WebUI.takeElementScreenshot(personaTag)
 
-// Write the data into the first cell
 Cell cell = row.createCell(0)
 cell.setCellValue(personaData)
 
-// Close the input stream
 if (fileInputStream != null) {
     fileInputStream.close()
 }
 
-// Write the updated workbook to the file
 FileOutputStream fileOutputStream = new FileOutputStream(filePath)
 workbook.write(fileOutputStream)
-
-// Close the output stream
 fileOutputStream.close()
 
-//	WebUI.refresh()
-WebUI.refresh()
-WebUI.delay(2)
-//WebUI.closeBrowser()
-//
-//WebUI.callTestCase(findTestCase("Cardinal Purge/Terminal Cardinal Purge"), [:], FailureHandling.OPTIONAL)
+WebUI.closeBrowser()
+
+WebUI.callTestCase(findTestCase("Cardinal Purge/Terminal Cardinal Purge"), [:], FailureHandling.OPTIONAL)
 

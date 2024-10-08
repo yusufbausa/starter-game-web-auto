@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - N2 - Create Player - not selecting persona</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa66cc99-b7a7-4f69-b8b9-b1452aa5b8db</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d964eb68-783c-47ca-8391-e6e1baf815d3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'test-player'</defaultValue>
+      <description></description>
+      <id>d964eb68-783c-47ca-8391-e6e1baf815d3</id>
+      <masked>false</masked>
+      <name>nickname</name>
+   </variable>
+</TestCaseEntity>

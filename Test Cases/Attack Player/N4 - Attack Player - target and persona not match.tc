@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>N4 - Attack Player - target and persona not match</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4b99a35-847d-4b4e-8e8a-855136dee502</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7957a2d8-4890-40b0-a590-11711b3043af</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'default-9'</defaultValue>
+      <description></description>
+      <id>7957a2d8-4890-40b0-a590-11711b3043af</id>
+      <masked>false</masked>
+      <name>targetPlayer</name>
+   </variable>
+</TestCaseEntity>

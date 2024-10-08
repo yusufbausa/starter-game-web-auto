@@ -42,10 +42,10 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook as XSSFWorkbook
 import org.eclipse.osgi.framework.util.FilePath as FilePath
 import java.lang.String as String
 
-//Open browser
-//WebUI.openBrowser('')
-//WebUI.navigateToUrl('http://localhost:3000/')
-//WebUI.maximizeWindow()
+
+WebUI.openBrowser('')
+WebUI.navigateToUrl('http://localhost:3000/')
+WebUI.maximizeWindow()
 
 //Creating New Persona
 WebUI.setText(findTestObject('Object Repository/Create Persona/field_personaTag'), personaTag)
@@ -67,6 +67,9 @@ def errorWeb = WebUI.getText(findTestObject('Object Repository/Create Persona/er
 	}
 
 WebUI.refresh()
-//WebUI.delay(2)
+WebUI.closeBrowser()
+
+WebUI.callTestCase(findTestCase("Cardinal Purge/Terminal Cardinal Purge"), [:], FailureHandling.OPTIONAL)
+
 
 

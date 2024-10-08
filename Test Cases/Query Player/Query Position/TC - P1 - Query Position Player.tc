@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - P1 - Query Position Player</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>83a013c8-bfdb-452f-813f-ea4b85db4c56</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa100ee5-ef33-4d81-b92a-542204f784b5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'default-0'</defaultValue>
+      <description></description>
+      <id>aa100ee5-ef33-4d81-b92a-542204f784b5</id>
+      <masked>false</masked>
+      <name>nickname</name>
+   </variable>
+</TestCaseEntity>

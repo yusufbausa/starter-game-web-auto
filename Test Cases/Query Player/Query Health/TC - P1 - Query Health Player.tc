@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - P1 - Query Health Player</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b460c730-acb6-45c6-97a7-0d87169d124a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c15c4e56-7d3f-4a29-abfc-15de56690688</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'default-0'</defaultValue>
+      <description></description>
+      <id>c15c4e56-7d3f-4a29-abfc-15de56690688</id>
+      <masked>false</masked>
+      <name>nickname</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>error_popUp_header</name>
+   <tag></tag>
+   <elementGuidId>9cfe0c84-069a-4788-85b4-5cd3159512d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='text-sm font-semibold']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/main/div/div/div/div/div/div[2]/div[2]/div[2]/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5bb2f416-00b1-4211-932c-438db016e48b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-3 py-2 space-y-2</value>
+      <webElementGuid>8e032fd3-65fd-4479-92c6-44b107748560</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Health{} 1 keysHP: 154Player{} 1 keysnickname: &quot;default-0&quot;Position{} 2 keysX: 0Y: 0</value>
+      <webElementGuid>8753394c-fb98-480d-bbc7-588f2ff5e3e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='text-sm font-semibold']</value>
+      <webElementGuid>d81b31a2-a4f2-4122-9b44-f28dca2017ab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/main/div/div/div/div/div/div[2]/div[2]/div[2]/div/div[2]</value>
+      <webElementGuid>b49ed518-baac-4475-a424-ee1af73382a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ungrouped'])[1]/following::div[4]</value>
+      <webElementGuid>1906cae6-e818-4c5a-b1e2-f2a9f8eb1db9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/div/div[2]</value>
+      <webElementGuid>0f8437fa-7b83-4eaf-8922-222d05768a70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Health{} 1 keysHP: 154Player{} 1 keysnickname: &quot;default-0&quot;Position{} 2 keysX: 0Y: 0' or . = 'Health{} 1 keysHP: 154Player{} 1 keysnickname: &quot;default-0&quot;Position{} 2 keysX: 0Y: 0')]</value>
+      <webElementGuid>c5d67352-b9c1-4840-ada5-d74531fb6ecf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

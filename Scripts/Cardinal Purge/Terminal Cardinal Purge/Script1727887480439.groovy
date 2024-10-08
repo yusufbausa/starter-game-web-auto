@@ -29,8 +29,10 @@ Windows.switchToWindow(findWindowsObject('WT - Cardinal Purge/Window'))
 //stopping cardinal, purge, and then start again
 Windows.setText(findWindowsObject('Object Repository/WT - Cardinal Purge/Window'), Keys.chord(Keys.LEFT_CONTROL, 'c'))
 Windows.delay(1)
+
 Windows.setText(findWindowsObject('Object Repository/WT - Cardinal Purge/Text'), Keys.chord('world cardinal purge', Keys.ENTER))
 Windows.delay(1)
+
 Windows.setText(findWindowsObject('Object Repository/WT - Cardinal Purge/Text'), Keys.chord('world cardinal dev', Keys.ENTER))
 Windows.delay(1)
 

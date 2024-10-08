@@ -20,10 +20,10 @@
          <combinationType>ONE</combinationType>
          <id>e11a4eb4-4d5e-4133-9db7-9b38ac71ecf1</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
          </iterationEntity>
-         <testDataId>Data Files/Create Persona/P1 - Create Persona</testDataId>
+         <testDataId>Data Files/Create Persona/Create Persona</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>

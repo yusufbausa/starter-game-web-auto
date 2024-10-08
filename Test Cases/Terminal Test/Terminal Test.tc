@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Terminal Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1815fa1-70e3-4ce7-bd4b-242ad5c4b1ff</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0f638f3c-b6fd-4d18-8019-26a81babc7b9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'World CLI 1.3.0'</defaultValue>
+      <description></description>
+      <id>0f638f3c-b6fd-4d18-8019-26a81babc7b9</id>
+      <masked>false</masked>
+      <name>worldVersion</name>
+   </variable>
+</TestCaseEntity>

@@ -12,29 +12,22 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>5f43e3bc-cf40-49e0-b90c-3fc6ee7a7e3e</testSuiteGuid>
    <testCaseLink>
-      <guid>7e2171fe-46f5-4cdb-a60c-9e7634502a91</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Open Browsers/Open Browser</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>030dc98b-15d6-4a6f-a4f3-dd32f2d120b4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create Persona/TC - N1 - N2 - Create Persona - personaTag - Symbols</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>7635ef7d-0e47-4313-893e-b49997b6e6a1</id>
+         <id>9034e70e-bff9-42dd-aeb7-8849e8f28224</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>2-3</value>
          </iterationEntity>
-         <testDataId>Data Files/Create Persona/N1 - N2 - Create Persona</testDataId>
+         <testDataId>Data Files/Create Persona/Create Persona</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>7635ef7d-0e47-4313-893e-b49997b6e6a1</testDataLinkId>
+         <testDataLinkId>9034e70e-bff9-42dd-aeb7-8849e8f28224</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>personaTag</value>
          <variableId>df428200-a454-4b1b-b743-b9c64624860d</variableId>
@@ -47,16 +40,16 @@
       <testCaseId>Test Cases/Create Persona/TC - N3 - Create Persona - personaTag - Empty</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>4e98a03d-5c40-4481-8d52-3cb022381321</id>
+         <id>e0ef131a-2e0e-4790-a5b8-fbf89d754993</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>4</value>
          </iterationEntity>
-         <testDataId>Data Files/Create Persona/N3 - Create Persona</testDataId>
+         <testDataId>Data Files/Create Persona/Create Persona</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>4e98a03d-5c40-4481-8d52-3cb022381321</testDataLinkId>
+         <testDataLinkId>e0ef131a-2e0e-4790-a5b8-fbf89d754993</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>personaTag</value>
          <variableId>76e192bd-ab8c-4491-915f-cfea414893f9</variableId>
@@ -69,16 +62,16 @@
       <testCaseId>Test Cases/Create Persona/TC - N4 - Create Persona - personaTag - 1 char</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>ae9cfbd2-2036-488f-88c4-85028f92b232</id>
+         <id>84a5b4ad-86fd-4f42-8569-78bd44a0025a</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>5</value>
          </iterationEntity>
-         <testDataId>Data Files/Create Persona/N4 - Create Persona</testDataId>
+         <testDataId>Data Files/Create Persona/Create Persona</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>ae9cfbd2-2036-488f-88c4-85028f92b232</testDataLinkId>
+         <testDataLinkId>84a5b4ad-86fd-4f42-8569-78bd44a0025a</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>personaTag</value>
          <variableId>19beb363-069c-4da4-90f9-3d3fbcff4cbf</variableId>
@@ -91,16 +84,16 @@
       <testCaseId>Test Cases/Create Persona/TC - N5 - Create Persona - personaTag - Already Registered</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>9a6f2e2b-dc01-49e8-8eb2-d8d69ea78f47</id>
+         <id>aaf3c264-ae0d-4c29-af86-d975dc4673e6</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>6</value>
          </iterationEntity>
-         <testDataId>Data Files/Create Persona/N5 - Create Persona</testDataId>
+         <testDataId>Data Files/Create Persona/Create Persona</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>9a6f2e2b-dc01-49e8-8eb2-d8d69ea78f47</testDataLinkId>
+         <testDataLinkId>aaf3c264-ae0d-4c29-af86-d975dc4673e6</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>personaTag</value>
          <variableId>4eaf95dd-4b87-4475-9cc3-665d19e6615d</variableId>

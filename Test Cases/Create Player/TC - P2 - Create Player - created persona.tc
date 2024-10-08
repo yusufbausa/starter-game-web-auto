@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - P2 - Create Player - created persona</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c24787f2-898c-4db6-93cd-31a703587a0a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>150999f1-92a6-4fe5-b33d-a15465ac58c5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'test-player'</defaultValue>
+      <description></description>
+      <id>150999f1-92a6-4fe5-b33d-a15465ac58c5</id>
+      <masked>false</masked>
+      <name>nickname</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>N1 - Attack Player - unregistered player</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>475bbbb2-fa2c-4696-852c-b9a1e7ca6c39</testCaseGuid>
+   <variable>
+      <defaultValue>'default-9'</defaultValue>
+      <description></description>
+      <id>05c53596-a382-4338-84ea-b50373dc481d</id>
+      <masked>false</masked>
+      <name>target</name>
+   </variable>
+</TestCaseEntity>

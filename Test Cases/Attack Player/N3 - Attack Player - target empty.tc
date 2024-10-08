@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>N3 - Attack Player - target empty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>488047aa-2ad6-450e-9a28-156fb6d776b7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>15215fc0-fb9d-428b-b2e1-53224eb511ef</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>15215fc0-fb9d-428b-b2e1-53224eb511ef</id>
+      <masked>false</masked>
+      <name>targetPlayer</name>
+   </variable>
+</TestCaseEntity>

@@ -35,15 +35,15 @@ import org.eclipse.osgi.framework.util.FilePath as FilePath
 import java.lang.String as String
 
 
-//WebUI.openBrowser('')
-//WebUI.navigateToUrl('http://localhost:3000/')
-//WebUI.maximizeWindow()
-//WebUI.delay(2)
+WebUI.openBrowser('')
+WebUI.navigateToUrl('http://localhost:3000/')
+WebUI.maximizeWindow()
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Attack Player/btn_menu_attack_player'))
 WebUI.click(findTestObject('Object Repository/Attack Player/dropdown_select_persona'))
-WebUI.click(findTestObject('Object Repository/Attack Player/option_persona'))
-WebUI.setText(findTestObject('Object Repository/Attack Player/field_target'), target)
+WebUI.click(findTestObject('Object Repository/Attack Player/option_persona_default'))
+WebUI.setText(findTestObject('Object Repository/Attack Player/field_target'), targetPlayer)
 WebUI.click(findTestObject('Object Repository/Attack Player/btn_send'))
 
 WebUI.click(findTestObject('Object Repository/Attack Player/response_area'))
@@ -64,7 +64,6 @@ FileInputStream fileInputStream
 XSSFWorkbook workbook
 XSSFSheet sheet
 
-// Open existing Excel file or create a new one
 try {
 	fileInputStream = new FileInputStream(filePath)
 	workbook = new XSSFWorkbook(fileInputStream)
@@ -75,28 +74,21 @@ catch (FileNotFoundException e) {
 	sheet = workbook.createSheet('Attack Response')
 }
 
-// Get the last row number and increment it for the new data
 int lastRow = sheet.getLastRowNum() + 1
-
-// Create a new row
 Row row = sheet.createRow(lastRow)
 
-// Write the data into the first cell
 Cell cell = row.createCell(0)
 cell.setCellValue(attackResponse)
 
-// Close the input stream
 if (fileInputStream != null) {
 	fileInputStream.close()
 }
 
-// Write the updated workbook to the file
 FileOutputStream fileOutputStream = new FileOutputStream(filePath)
 workbook.write(fileOutputStream)
-
-// Close the output stream
 fileOutputStream.close()
 
-WebUI.refresh()
-//WebUI.closeBrowser()
+WebUI.closeBrowser()
+
+WebUI.callTestCase(findTestCase("Cardinal Purge/Terminal Cardinal Purge"), [:], FailureHandling.OPTIONAL)
 

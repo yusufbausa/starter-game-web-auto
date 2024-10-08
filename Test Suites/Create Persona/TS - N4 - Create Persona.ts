@@ -16,20 +16,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create Persona/TC - N4 - Create Persona - personaTag - 1 char</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>4fc247ad-98d2-4c2e-9b37-52798b3afa76</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Create Persona/N4 - Create Persona</testDataId>
-      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>4fc247ad-98d2-4c2e-9b37-52798b3afa76</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>personaTag</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>19beb363-069c-4da4-90f9-3d3fbcff4cbf</variableId>
       </variableLink>
    </testCaseLink>

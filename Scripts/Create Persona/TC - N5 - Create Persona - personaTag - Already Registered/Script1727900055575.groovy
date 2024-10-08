@@ -64,9 +64,6 @@ if (popupMessage.contains(actualText)) {
     KeywordUtil.markFailed('Test Failed ' + popupErrorMessage)
 }
 
-
-//	WebUI.refresh()
-WebUI.refresh()
 WebUI.closeBrowser()
 
 WebUI.callTestCase(findTestCase("Cardinal Purge/Terminal Cardinal Purge"), [:], FailureHandling.OPTIONAL)

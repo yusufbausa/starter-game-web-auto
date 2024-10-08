@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - N2 - Query Position Player - Unregistered nickname</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad09a406-9e0f-412a-b177-3eaac68900df</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4ef18d4f-862e-4403-9fd6-a784d99c3769</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ddddd'</defaultValue>
+      <description></description>
+      <id>4ef18d4f-862e-4403-9fd6-a784d99c3769</id>
+      <masked>false</masked>
+      <name>nickname</name>
+   </variable>
+</TestCaseEntity>

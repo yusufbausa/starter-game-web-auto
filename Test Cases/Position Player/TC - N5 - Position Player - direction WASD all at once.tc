@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - N5 - Position Player - direction WASD all at once</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad5076ea-98df-43ef-9118-d7b79981ae66</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c1963607-7b35-41cc-9551-e9812f73b3b6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>adf26fd0-2c98-4212-b0b4-6aaa3441ae17</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'W'</defaultValue>
+      <description></description>
+      <id>c1963607-7b35-41cc-9551-e9812f73b3b6</id>
+      <masked>false</masked>
+      <name>direction</name>
+   </variable>
+   <variable>
+      <defaultValue>'default-9'</defaultValue>
+      <description></description>
+      <id>adf26fd0-2c98-4212-b0b4-6aaa3441ae17</id>
+      <masked>false</masked>
+      <name>target</name>
+   </variable>
+</TestCaseEntity>

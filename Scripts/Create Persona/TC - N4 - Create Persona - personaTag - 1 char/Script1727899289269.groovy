@@ -67,6 +67,3 @@ def errorWeb = WebUI.getText(findTestObject('Object Repository/Create Persona/er
 	}
 
 WebUI.refresh()
-//WebUI.closeBrowser()
-
-//WebUI.callTestCase(findTestCase("Cardinal Purge/Terminal Cardinal Purge"), [:], FailureHandling.OPTIONAL)

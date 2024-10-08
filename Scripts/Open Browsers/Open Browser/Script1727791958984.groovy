@@ -24,4 +24,4 @@ import com.kms.katalon.core.util.KeywordUtil
 WebUI.openBrowser('')
 WebUI.navigateToUrl('http://localhost:3000/')
 WebUI.maximizeWindow()
-WebUI.delay(2)
+//WebUI.delay(2)

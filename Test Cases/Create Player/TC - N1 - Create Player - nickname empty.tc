@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - N1 - Create Player - nickname empty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cbe1ce7a-1eba-4a79-a1dd-95906332439b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>05e1d663-86f8-479a-9a69-c021ec4b42c8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>05e1d663-86f8-479a-9a69-c021ec4b42c8</id>
+      <masked>false</masked>
+      <name>nicknamePlayer</name>
+   </variable>
+</TestCaseEntity>

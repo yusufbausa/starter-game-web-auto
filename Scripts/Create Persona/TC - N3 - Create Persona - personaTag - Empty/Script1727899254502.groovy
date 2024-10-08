@@ -43,9 +43,9 @@ import org.eclipse.osgi.framework.util.FilePath as FilePath
 import java.lang.String as String
 
 //Open browser
-//WebUI.openBrowser('')
-//WebUI.navigateToUrl('http://localhost:3000/')
-//WebUI.maximizeWindow()
+WebUI.openBrowser('')
+WebUI.navigateToUrl('http://localhost:3000/')
+WebUI.maximizeWindow()
 
 //Creating New Persona
 WebUI.setText(findTestObject('Object Repository/Create Persona/field_personaTag'), personaTag)
@@ -55,8 +55,8 @@ WebUI.click(findTestObject('Object Repository/Create Persona/btn_create'))
 KeywordLogger log = new KeywordLogger()
 
 // Get target value from excel file
-TestData excelData = findTestData('Data Files/Create Persona/N3 - Create Persona')
-String valueFromExcel = excelData.getValue(2,1)
+TestData excelData = findTestData('Data Files/Create Persona/Create Persona')
+String valueFromExcel = excelData.getValue(2,4)
 	
 // Change global variable target value to the data get from excel file
 GlobalVariable.personaTag = valueFromExcel
@@ -77,7 +77,5 @@ if (verifyPersonaTag == true) {
 }
 
 WebUI.refresh()
-//WebUI.delay(2)
 
-//WebUI.closeBrowser()
 

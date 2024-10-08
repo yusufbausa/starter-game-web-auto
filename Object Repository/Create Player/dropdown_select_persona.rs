@@ -6,12 +6,16 @@
    <elementGuidId>f5f45cf7-a5a7-4931-9472-20339e298df7</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>html.light</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*/text()[normalize-space(.)='']/parent::*</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>html.light</value>
+         <key>BASIC</key>
+         <value>//div[@role='option'][contains(.,'${persona}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>html</value>
-      <webElementGuid>27dae85e-4971-4d1c-975b-ef1274cb019c</webElementGuid>
+      <webElementGuid>5a4cab60-a87f-49e8-b9b1-4c29d91cf69e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>lang</name>
       <type>Main</type>
       <value>en</value>
-      <webElementGuid>1735b31d-ee76-4927-88a4-df5527bb3566</webElementGuid>
+      <webElementGuid>ff29c623-5b2d-432b-85fa-40cd5111ea2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>light</value>
-      <webElementGuid>7d4e45cf-3708-44f2-be6b-d985e589a1f6</webElementGuid>
+      <webElementGuid>13839574-9491-4118-aa82-c95472eafb5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -99,15 +103,15 @@
   
 
 /html[@class=&quot;light&quot;][data-radix-select-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-select-viewport]::-webkit-scrollbar{display:none}_test_persona</value>
-      <webElementGuid>afaab3a1-3d29-4b10-91b1-a5acf7b10a7b</webElementGuid>
+      <webElementGuid>ecd24348-13d9-49cd-a2d6-81f168b4dcdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@type='button'][contains(.,'Select persona')]</value>
-      <webElementGuid>48e63d35-1292-4cf8-aaf7-02af5cc26513</webElementGuid>
+      <value>//div[@role='option'][contains(.,'${persona}')]</value>
+      <webElementGuid>a5209557-de8f-4e38-9948-e83aa59df345</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -115,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='']/parent::*</value>
-      <webElementGuid>842b5cb9-2791-44c3-bec5-7c68a422232b</webElementGuid>
+      <webElementGuid>9f2050a5-317f-44a5-aded-6bc969e8f8c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +127,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//html</value>
-      <webElementGuid>4ca73e26-4d24-4edc-ba7c-d0d6de3aca10</webElementGuid>
+      <webElementGuid>6ae9e5fd-ae68-4aa6-90a6-a0bfec8f0966</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -237,6 +241,6 @@
   
 
 /html[@class=&quot;light&quot;][data-radix-select-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-select-viewport]::-webkit-scrollbar{display:none}_test_persona')]</value>
-      <webElementGuid>b03f20fe-6181-440e-81e2-ec236057a436</webElementGuid>
+      <webElementGuid>973156b5-9c75-46e9-a95d-4fed8082c643</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

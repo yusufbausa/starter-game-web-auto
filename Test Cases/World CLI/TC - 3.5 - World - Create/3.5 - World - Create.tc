@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3.5 - World - Create</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c15509d7-8229-4ed5-a7fa-b380f8682f1f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fd981a7c-0619-43fe-ade4-282df9fa2cba</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'World CLI 1.3.1-Beta2'</defaultValue>
+      <description></description>
+      <id>fd981a7c-0619-43fe-ade4-282df9fa2cba</id>
+      <masked>false</masked>
+      <name>worldVersion</name>
+   </variable>
+</TestCaseEntity>

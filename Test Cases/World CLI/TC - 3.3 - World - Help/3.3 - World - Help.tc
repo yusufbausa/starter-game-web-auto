@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3.3 - World - Help</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9998a6b1-65f8-461c-8e12-4395f4032677</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e337d2fb-81a2-4613-ae87-33b9393149ad</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'World CLI 1.3.1-Beta2'</defaultValue>
+      <description></description>
+      <id>e337d2fb-81a2-4613-ae87-33b9393149ad</id>
+      <masked>false</masked>
+      <name>worldVersion</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3.7.3 - World - Cardinal - Dev - Editor True</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3628267-6b9d-4369-814d-3f18d6de0735</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>91e25ff5-8df7-4140-bbf5-caf19cbc1af2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'World CLI 1.3.1-Beta2'</defaultValue>
+      <description></description>
+      <id>91e25ff5-8df7-4140-bbf5-caf19cbc1af2</id>
+      <masked>false</masked>
+      <name>worldVersion</name>
+   </variable>
+</TestCaseEntity>

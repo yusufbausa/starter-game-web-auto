@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS - 3.7 - World - Cardinal - Dev</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>c6e3f9b4-aec2-4c4d-8a54-dfe68c1454e2</testSuiteGuid>
+   <testCaseLink>
+      <guid>ace50a83-4acc-4317-a233-6fc9a798427b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/World CLI/2.1.2 - Opening Terminal</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fd590de7-b24a-42dc-8b7f-2bbba73b2c49</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fe43a62e-4c64-4141-86d8-c22eaa8fb7a0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/World CLI/TC - 3.7 - World - Cardinal - Dev/3.7.1 - World - Cardinal - Dev</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3386bc58-7e43-4cf8-9460-20ff3497fc79</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d595f15e-4034-4d79-be27-4b7f78d2f069</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/World CLI/TC - 3.7 - World - Cardinal - Dev/3.7.2 - World - Cardinal - Dev - Editor False</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>699aebc9-dd09-44fa-8249-d7982d753a77</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c04cf037-4aa3-4ac1-ba03-eb234d6a035a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/World CLI/TC - 3.7 - World - Cardinal - Dev/3.7.3 - World - Cardinal - Dev - Editor True</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>91e25ff5-8df7-4140-bbf5-caf19cbc1af2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>519502c0-a83e-4775-8709-d6970a2a9c94</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/World CLI/TC - 3.7 - World - Cardinal - Dev/3.7.4 - World - Cardinal - Dev - Config</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b8689dfd-d066-4d4f-9c5f-182273f0a028</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e0c06e31-7fd5-4d94-8d05-884cebd4eae8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/World CLI/TC - 3.7 - World - Cardinal - Dev/3.7.5 - World - Cardinal - Dev - Pretty Log False</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>98c9c30b-32e6-4a06-b846-4607ef82595b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>10ee58a1-8b56-4976-96a6-d78f5444f318</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/World CLI/TC - 3.7 - World - Cardinal - Dev/3.7.6 - World - Cardinal - Dev - Pretty Log True</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f9952b8e-34d7-4354-b8b5-5f8fa0626205</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -27,7 +27,7 @@
    <testCaseLink>
       <guid>47908961-a604-4e7e-92a0-90fbc57e7b40</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/World CLI/TC - 3.11 - World - Cardinal - Restart/3.11.1 - World - Cardinal - Restart</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -41,7 +41,7 @@
    <testCaseLink>
       <guid>04312a50-c37f-4f27-9def-ab885a257e78</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/World CLI/TC - 3.11 - World - Cardinal - Restart/3.11.3 - World - Cardinal - Restart - Config</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
